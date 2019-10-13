@@ -1,0 +1,28 @@
+$primary1: gray;
+$primary2:white;
+$primary3: #00008b;
+
+
+
+  .dm_color{
+      color:$primary1;
+      background-color: $primary3;
+    }
+  p{
+  #special{
+    color:$primary2;
+  }
+  }
+span{
+font-size:25px;
+font-weight:bold;
+}
+#inherit{
+  @extend span;
+  @extend .dm_color;
+}
+ul{
+  li{
+    color:yellow ;
+  }
+}
