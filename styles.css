@@ -1,0 +1,15 @@
+.dm_color, #inherit {
+  color: gray;
+  background-color: #00008b; }
+
+p #special {
+  color: white; }
+
+span, #inherit {
+  font-size: 25px;
+  font-weight: bold; }
+
+ul li {
+  color: yellow; }
+
+/*# sourceMappingURL=styles.css.map */
