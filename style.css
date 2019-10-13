@@ -1,0 +1,32 @@
+table, th, td {
+  border: 1px solid black;
+  width:100%;
+  border-collapse: collapse;
+
+}
+table{
+   background-color: blue;
+}
+th, td {
+  padding: 0.5%;
+}
+body{
+    background-color: #8ebf42;
+
+    height: 100%;
+}
+.main_div,nav,.section {
+  margin: 0 auto;
+width: 80%;
+
+}
+h1,h2,h3{
+    text-align: center;
+    color: red;
+}
+a {
+     text-decoration:none;
+}
+nav(
+   margin:20%;
+  )

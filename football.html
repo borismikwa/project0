@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>My Webpage</title>
+        <link rel="stylesheet"
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        >
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
     </head>
     <body>
       <nav>
@@ -11,15 +16,21 @@
           <a href="football.html">Football</a> |
           <a href="generalKnowledge.html">General Knowledge</a>
        </nav>
-      <div>
+      <div class="main_div">
         <h2>About Football</h2>
-        <h3> Origin of Football</h3>
-        <p>
+
+        <div class="row">
+
+        <div class="col-sm-6">
+            <h3> Origin of Football</h3>
+          <p>
           Records trace the history of soccer back more than 2,000 years ago to ancient China.
           Greece, Rome, and parts of Central America also claim to have started the sport;
           but it was England that transitioned soccer, or what the British and many other people
           around the world call “football,” into the game we know today.
-       </p>
+        </p>
+
+
        <h3>General info</h3>
        <p>
           Football is a family of team sports that involve, to varying degrees, kicking a ball to
@@ -29,6 +40,10 @@
           These various forms of football are known as football codes. There are a number of references
           to traditional, ancient, or prehistoric bal
        </p>
+         <img src="football.jpg">
+     </div>
+     <div class="col-sm-6">
+
        <h3> Some Rules </h3>
        <ol>
           <li>A standard football pitch must be 45-90 metres wide, and 90-120 metres long.</li>
@@ -47,6 +62,9 @@
               </ul>
           </li>
        <ol>
+       </div>
+
       </div>
     </body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </html>
